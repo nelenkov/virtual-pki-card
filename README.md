@@ -21,17 +21,17 @@ Nexus, should work with any PN544-based device.
 2. Make sure the PC/SC stack on your machine works. 
 3. Connect a supported contactless reader. 
 4. Edit the `run.sh` script as necessary. 
-5. Run the app. It will block waiting for a NFC device.
+5. Run the app using the script, specifying a PIN as the first parameter 
+and a certificate file path as the second (optional). It will block 
+waiting for a NFC device to become available. 
 
 #### Build and install the Android app
 
 1. Import the 'se-emulator' project in Eclipse.
 2. Run on a compatible device.
 3. Place a PKCS#12 file in `/sdcard/` and install via the app UI.
-4. Set a PIN vie the app UI. 
+4. Set a PIN via the app UI. 
 5. Run the client application on a machine with a contactless 
 reader connected. 
 6. Place phone on reader to start. 
-
-
 
