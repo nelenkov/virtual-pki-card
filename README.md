@@ -4,7 +4,7 @@ Virtual PKI Smart Card
 Virtual PKI smart card using CyanogenMod 9.1 software card emulation. 
 See related article for details: 
 
-http://nelenkov.blogspot.com/2012/10/emulating-pki-smart-card-with.html
+http://nelenkov.blogspot.com/2012/10/emulating-pki-smart-card-with-cm91.html
 
 ### How to use
 
