@@ -46,6 +46,7 @@ public class Main {
 
             System.out.println("Place phone/card on reader to start");
             Card card = waitForCard(terminals);
+            card.beginExclusive();
 
             try {
                 CardChannel channel = card.getBasicChannel();
@@ -96,6 +97,7 @@ public class Main {
                     System.out.printf("Signature is valid: %s\n", valid);
                 }
             } finally {
+                card.endExclusive();
                 card.disconnect(false);
             }
 
