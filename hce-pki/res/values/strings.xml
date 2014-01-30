@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HCE PKI</string>
+    <string name="action_settings">Settings</string>
+    <string name="servicedesc">PKI applet</string>
+    <string name="aiddescription">PKI applet AID</string>
+    <string name="applet_initialized">PKI applet initialized.</string>
+    <string name="applet_not_initialized">PKI applet NOT initialized. Install key and set PIN.</string>
+    <string name="place_on_reader">Start PKI client on host and place on reader.</string>
+
+</resources>

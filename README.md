@@ -35,3 +35,6 @@ waiting for a NFC device to become available.
 reader connected. 
 6. Place phone on reader to start. 
 
+#### Update 2014/1: Added HCE version
+
+The 'hce-pki' should work on any KitKat device that supports host card emulation.
